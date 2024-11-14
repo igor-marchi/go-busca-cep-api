@@ -26,7 +26,7 @@ Este projeto utiliza o [Air](https://github.com/cosmtrek/air) para live reload d
 1. Instale o Air:
 
 ```sh
-go install github.com/cosmtrek/air@latest
+go install github.com/air-verse/air@latest
 ```
 
 2. Execute o Air:
@@ -39,4 +39,4 @@ O Air irá monitorar as mudanças no código e recarregar automaticamente a apli
 
 ## Endpoints
 
-- `GET /cep/{cep}`: Retorna informações sobre o CEP fornecido.
+- `GET /?cep={cep}`: Retorna informações sobre o CEP fornecido.
